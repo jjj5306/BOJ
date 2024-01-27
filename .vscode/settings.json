@@ -45,6 +45,6 @@
     "streambuf": "cpp",
     "typeinfo": "cpp"
   },
-  "C_Cpp.errorSquiggles": "disabled",
-  "files.insertFinalNewline": false
+  "files.insertFinalNewline": false,
+  "C_Cpp.errorSquiggles": "disabled"
 }
