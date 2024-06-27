@@ -74,6 +74,10 @@ void func(int cnt)
             ans_min = min(ans_min, cnt + 1);
             continue;
         }
+        else if (flag == 2)
+        {
+            ans_min = max();
+                }
         else
             func(cnt + 1);
         r = tmp_r;

@@ -43,8 +43,20 @@
     "sstream": "cpp",
     "stdexcept": "cpp",
     "streambuf": "cpp",
-    "typeinfo": "cpp"
+    "typeinfo": "cpp",
+    "stdio.h": "c"
   },
   "files.insertFinalNewline": false,
-  "C_Cpp.errorSquiggles": "disabled"
+  "C_Cpp.errorSquiggles": "disabled",
+  "css.enabledLanguages": [
+    "html",
+    "javascriptreact",
+    "typescriptreact",
+    "typescript",
+    "javascript",
+    "njk",
+    "nunjucks",
+    "html-nunjucks",
+    "php"
+  ]
 }
