@@ -44,7 +44,8 @@
     "stdexcept": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "queue": "cpp"
   },
   "files.insertFinalNewline": false,
   "C_Cpp.errorSquiggles": "disabled",
