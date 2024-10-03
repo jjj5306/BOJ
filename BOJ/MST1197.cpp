@@ -25,8 +25,14 @@ bool is_diff_group(int u, int v)
     if (u == v)
         return 0;
 
-    p[v] = u;
-
+    // 두 집합의 크기가 같은 경우 u에 통일하기 위해 u의 사이즈를 더 늘림(--가 더 늘리는 것인 이유는 더 깊어진다는 의미)
+    if (p[u] == p[v])
+        p[u]--;
+    // u가 더 큰 경우 v의 부모를 u로 만듬.
+    if (p[u] < p[v])
+        p[v] = u;
+    else
+        p[u] = v;
     return 1;
 }
 
