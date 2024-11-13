@@ -1,4 +1,4 @@
-/** 재귀 11729 하노이 탑 **/
+/** 재귀 1914 하노이 탑 **/
 #include <iostream>
 #include <vector>
 #include <algorithm>
