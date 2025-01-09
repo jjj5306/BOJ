@@ -1,4 +1,4 @@
-/** 그리디 1931 회의실 배정정 **/
+/** 그리디 1931 회의실 배정 **/
 #include <iostream>
 #include <vector>
 #include <algorithm>
