@@ -1,4 +1,4 @@
-/** 이분탐색 2295 세 수의 합 **/
+/** BinarySearch 2295 세 수의 합 **/
 #include <iostream>
 #include <vector>
 #include <algorithm>
